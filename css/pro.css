@@ -1,0 +1,134 @@
+/* body{ */
+    /* font-family: "arial"; */
+/* } */
+/* navbar */
+*,*:after,*:before{
+    margin:0;
+    padding:0;
+}
+.bg-light {
+    background-color: white!important;
+}
+.navbar-light .navbar-brand {
+    color: #a67ecf;
+    font-size:25px;
+    font-weight: bold;
+}
+.navbar-light .navbar-brand:focus,.navbar-light .navbar-brand:hover {
+    color: #a67ecf;
+}
+.navbar-light .navbar-nav .nav-item
+{
+    font-size: 18px;
+}
+.navbar-light .navbar-nav .nav-item :hover,
+.navbar-light .navbar-nav .nav-item :focus {
+    color: #a67ecf;
+}
+/* end navbar */
+/* section */
+.section h2{
+    text-align: center;
+    margin-bottom:27px;
+    text-transform: uppercase;
+    color: #a67ecf;
+   
+}
+.section p{
+    color:#888;
+    line-height: 1.8;
+}
+.sectionpart2 img{
+    width: 100%;
+}
+.sectionpart2 .img{
+    background-image: url("../Images/work-1.jpg");
+    height:538px;
+    background-size: cover;
+    position: relative;
+}
+.sectionpart2 .st{
+    position:absolute;
+    bottom:0;
+    color:#ddd;
+    margin:0;
+    background:rgba(0,0,0,.5);
+    padding:20px;
+    font-size: 17px;
+}
+/*  */
+/* start service */
+.service
+{
+    background-image: url("../Images/intro.jpg");
+    height: 400px;
+    background-attachment: fixed;
+    text-align: center;
+    /* line-height: 400px; */
+    /* margin-top:190px; */
+
+}
+.service p{
+    
+    font-size: 20px;
+    border: 2px solid #fff;
+    color:#fff;
+    font-weight: bold;
+    margin-top:12%;
+    padding:25px;
+    display:inline-block;
+}
+/*  */
+
+/* start product */
+.image img {
+    width:100%;
+    height: 250px;
+}
+/* end */
+/* start choose */
+.choose{
+    background-color:#f7f7f7;
+    width:100%;
+
+}
+.choose div.part p,.choose div.part h2{
+    margin:0;
+}
+.choose i{
+    position: relative;
+    top:20px;
+    width:20%;
+    color:#999;
+}
+.choose div.part{
+    width:80%;
+}
+.choose div.part h2{
+    color:#a67ecf;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+.choose div.part p
+{
+    color:#888;
+    margin-top:5%;
+    font-size:17px;
+}
+/* end */
+.foot{
+    text-align: center;
+}
+.foot p{
+    color:#888;
+    font-size:18px;
+}
+.foot i{
+    padding:10px;
+    background:#999;
+    color:#fff;
+    border-radius: 50%;
+}
+
+
+
